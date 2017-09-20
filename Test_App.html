@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Test Site for Selenium Practice</title>
+</head>
+<h1> New Application Form </h1>
+<body>
+
+<form>
+<form action="/action_page.php" method="post">
+<fieldset>
+    <legend>Personal information:</legend>
+  First name:<br>
+  <input type="text" name="firstname"><br>
+  Last name:<br>
+  <input type="text" name="lastname"><br>
+Gender:<br>
+<input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other <br>
+<br>
+Marrital Status:<br>
+<input type="radio" name="Marrital Status:<br>" value="Yes" checked> Married<br>
+  <input type="radio" name="Marrital Status:<br>" value="No"> Single<br>
+Nationality:<br>
+  <input type="text" name="State"><br>
+<br>
+<br>
+</fieldset>
+<fieldset>
+    <legend>Address Details:</legend>
+  Address Line1:<br>
+  <input type="text" name="addressline1"><br>
+  Address Line2:<br>
+  <input type="text" name="addressline2"><br>
+Landmark:<br>
+  <input type="text" name="landmark"><br>
+City:<br>
+  <input type="text" name="City"><br>
+Country:<br>
+  <select name="Country">
+    <option value="India">India</option>
+    <option value="USA">USA</option>
+    <option value="LONDON">London</option>
+    <option value="Europe">Europe</option>
+  </select>
+  <br><br>
+State:<br>
+  <input type="text" name="State"><br>
+<br><br>
+</fieldset>
+<br><br>
+<button type="button" onclick="alert('Your Form is Submitted')">Submit</button>
+</form>
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</body>
+
+</html>
